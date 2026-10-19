@@ -1,0 +1,33 @@
+
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+    <div class="p-5 bg-light rounded-4 shadow-sm">
+        <h1 class="mb-3">About Todo App</h1>
+
+        <p class="lead">
+            A simple and practical task management application built with Flask.
+        </p>
+
+        <p>
+            This app helps you organize your daily tasks by adding,
+            viewing, updating, deleting, and searching todos.
+        </p>
+
+        <h3 class="mt-4">Technologies Used</h3>
+
+        <ul>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Flask-SQLAlchemy</li>
+            <li>SQLite Database</li>
+            <li>HTML, CSS and Bootstrap</li>
+        </ul>
+
+        <a href="/" class="btn btn-dark mt-3">Back to Home</a>
+    </div>
+</div>
+{% endblock body %}
